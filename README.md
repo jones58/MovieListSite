@@ -9,6 +9,7 @@ A site about my favourite films, built in Vue, TypeScript and Tailwind and boots
 - Converted CSV to JSON and added to project.
 - Imported JSON on my home page and made a for loop through the data, using the "v-for" directive.
 - Used Tailwind to style my content, making sure to keep it responsive.
+- See Todo.md for what I'm working on next!
 
 ## Project Setup
 
