@@ -1,5 +1,14 @@
 # MovieList
+
 A site about my favourite films, built in Vue, TypeScript and Tailwind and bootstrapped with Vite.
+
+## Building
+
+- Designed a Figma prototype.
+- Downloaded my data from Letterboxd in CSV.
+- Converted CSV to JSON and added to project.
+- Imported JSON on my home page and made a for loop through the data, using the "v-for" directive.
+- Used Tailwind to style my content, making sure to keep it responsive.
 
 ## Project Setup
 
