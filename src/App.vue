@@ -1,12 +1,8 @@
-<script setup lang="ts">
-import { RouterLink, RouterView } from "vue-router";
-import HelloWorld from "./components/HelloWorld.vue";
-import LogoSVG from "./components/svg/LogoSVG.vue";
-</script>
-
 <template>
   <div class="min-h-screen bg-gray-900">
-    <header class="lg:flex place-items-center max-h-screen pr-20 leading-8">
+    <header
+      class="lg:flex place-items-center max-h-screen pr-20 leading-8 text-black"
+    >
       <LogoSVG alt="Vue logo" class="lg:m-0 lg:mr-8 block mx-auto mt-0" />
 
       <div class="lg:flex lg:place-items-start lg:flex-wrap">
