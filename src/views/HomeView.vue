@@ -1,12 +1,12 @@
 <script setup>
 import MovieList from "../MovieList.json";
-console.log(MovieList);
 </script>
 
 <template>
-  <main class="text-3xl font-bold underline text-black">Hello</main>
-  <div v-for="item in MovieList" :key="movieIndex">
-    {{ item.Name }}
-  </div>
+  <main class="text-3xl text-gray-100 mx-5">
+    <div v-for="(item, index) in MovieList" :key="index">
+      {{ item.Name }}
+    </div>
+  </main>
 </template>
 ../MovieList
